@@ -4,7 +4,7 @@
 
 # Controls
 
-| **Chip 8 Keypad** | **Botons Dualshock 2**   |
+| **Chip 8 Keypad** | **Buttons Dualshock 2**   |
 |------------------|---------------------------|
 | 0                | START                     |
 | 1                | L1                        |
