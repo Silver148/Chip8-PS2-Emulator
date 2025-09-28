@@ -10,14 +10,14 @@ all: background_buffer $(EE_BIN)
 	$(MAKE) -C core
 	
 release:
-	mkdir Chip8-Emulator-PS2
-	mkdir Chip8-Emulator-PS2/core
+	mkdir -p Chip8-Emulator-PS2
+	mkdir -p Chip8-Emulator-PS2/core
 	cp $(EE_BIN) Chip8-Emulator-PS2/$(EE_BIN)
 	cp core/Chip8-CORE.ELF Chip8-Emulator-PS2/core/Chip8-CORE.ELF
 	zip Chip8-Emulator-PS2.zip -r Chip8-Emulator-PS2
 
 clean_release:
-	rm -rf Chip8-Emulator-PS2
+	rm -rf Chip8-Emulator-PS2 Chip8-Emulator-PS2.zip
 
 clean:
 	rm -rf $(EE_BIN) $(EE_OBJS) resources/background_buffer.c
