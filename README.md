@@ -2,7 +2,7 @@
 
 ## Is very simple, but functional :)
 
-# Controls
+# Input
 
 | **Chip 8 Keypad** | **Buttons Dualshock 2**   |
 |------------------|---------------------------|
