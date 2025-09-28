@@ -9,7 +9,7 @@ EE_CFLAGS = -O3 -DNEWLIB_PORT_AWARE
 all: background_buffer $(EE_BIN)
 	$(MAKE) -C core
 	
-release:
+release: #RULE TO CREATE A RELEASE
 	mkdir -p Chip8-Emulator-PS2
 	mkdir -p Chip8-Emulator-PS2/core
 	cp $(EE_BIN) Chip8-Emulator-PS2/$(EE_BIN)
