@@ -29,5 +29,7 @@ By the way, the emulator is divided into two executables: the GUI and the core. 
 
 One limitation of the program is that the emulator can only run from a flash drive (mass0:); otherwise, it won't work because it won't be able to find the core. I might improve this soon :)
 
+At the moment, ROMs cannot be stored in folders, but rather in the root of the pendrive
+
 This emulator was made by Juan Yaguaro(aka silverhacker)
 
