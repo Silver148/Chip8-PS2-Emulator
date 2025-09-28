@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <kernel.h>
+#include <sifrpc.h>
+#include <loadfile.h>
+#include <sbv_patches.h>
+#include <string.h>
+#include <iopcontrol.h>
+#include <gsKit.h>
+#include <dmaKit.h>
+#include <elf-loader.h>
+#include <ps2_all_drivers.h>
+#include <libpngps2.h>
+#include <fileio.h>
+#include <fileXio_rpc.h>
+#include <libpad.h>

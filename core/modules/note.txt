@@ -1,0 +1,5 @@
+This folder stores IOP modules. 
+The Makefile copies the modules automatically when compiling :D
+
+(At the moment, only the poweroff module is copied because it's the only external 
+module this emulator uses xD)
