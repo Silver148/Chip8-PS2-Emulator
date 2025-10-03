@@ -25,6 +25,8 @@
 
 ## Pressing L1 + R1 can pause the emulation. Also by pressing L1 + R1 + L2 + R2 + SELECT + START (At the same time) you can exit the game to play another one :D
 
+### To compile the emulator, make sure you have my [PS2 PNG library](https://github.com/Silver148/LIBPNGPS2) :D
+
 By the way, the emulator is divided into two executables: the GUI and the core. The GUI is the ELF file called "Chip8-Emulator-PS2.ELF," while the core is called "Chip8-CORE.ELF." The core file should be in a folder called "core," which should be in the same folder as the GUI ELF file. (The emulator folder, where the core and GUI files are located, should be called "Chip8-Emulator-PS2.")
 
 One limitation of the program is that the emulator can only run from a flash drive (mass0:); otherwise, it won't work because it won't be able to find the core. I might improve this soon :)
